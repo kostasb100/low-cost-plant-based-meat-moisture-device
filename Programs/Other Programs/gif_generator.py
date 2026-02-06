@@ -20,8 +20,8 @@ from PIL import Image, ImageDraw, ImageFont
 import glob
 import os
 
-# Image(.jpg) file path (change to desired directory)
-root_dir = r"C:\Users\folder_with_images"
+# Image(.jpg) file path
+root_dir = r"file_path"
 
 # Image(.jpg) sort
 img_files = sorted(
@@ -60,5 +60,6 @@ frames[0].save(
     duration=400,  # [ms] per frame (0.4 s)
     loop=0
 )
+
 
 print(f"GIF saved as: {gif_path}")
