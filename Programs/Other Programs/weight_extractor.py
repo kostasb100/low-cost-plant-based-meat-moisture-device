@@ -16,7 +16,7 @@ import json
 import csv
 
 # Root directory
-root_dir = r"C:\Users\kbalc\Desktop\uni\bachelor_project\measurements\1.5-1.9\1-7"
+root_dir = r"root_dir_path"
 
 # Output CSV file
 output_csv = os.path.join(root_dir, "weight_data.csv")
@@ -65,6 +65,7 @@ for time_dir in time_dirs:
 f.close()
 
 print("Weight data saved in:", output_csv)
+
 
 
 
