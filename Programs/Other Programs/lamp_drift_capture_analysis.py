@@ -14,8 +14,8 @@ Date: 2026-02
 """
 
 import time
-import RPi.GPIO as GPIO
-from picamera2 import Picamera2
+# import RPi.GPIO as GPIO
+# from picamera2 import Picamera2
 import os
 import re
 import rawpy
@@ -23,7 +23,7 @@ import numpy as np
 import pandas as pd
 import cv2
 
-base_dir = r"/home/rasp100/Desktop/kenkyu/1-21/"
+base_dir = os.getcwd()
 dng_output_folder = os.path.join(base_dir, "light_source_drift_images")
 os.makedirs(dng_output_folder, exist_ok=True)
 
@@ -153,10 +153,12 @@ def perform_analysis():
 if mode == "1":
     perform_capture()
     perform_analysis()
+
 elif mode == "2":
     perform_capture()
+
 elif mode == "3":
     perform_analysis()
+
 else:
     print("Invalid mode selected.")
-
