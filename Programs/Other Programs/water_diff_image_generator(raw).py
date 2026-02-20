@@ -21,7 +21,7 @@ import rawpy
 import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
-root_dir = r"C:\Users\kbalc\Desktop\uni\bachelor_project\measurements\12.8-12.12\12.9" # Directory in which the images are saved in
+root_dir = r"file_path" # Directory in which the images are saved in
 main_folders = ["50000", "100000", "150000"] # Folders used, which were named based on the exposure times
 
 # Read DNG images and convert their pixel values to float for subtraction
@@ -84,3 +84,4 @@ for mf in main_folders:
 
 
     print(f"Difference plots saved in: {out_png}")
+
