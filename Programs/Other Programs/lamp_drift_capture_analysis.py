@@ -59,6 +59,7 @@ def perform_capture():
 
         config = picam2.create_still_configuration(
             raw={"size": (sensor_width, sensor_height)},
+            buffer_count=2,
             controls={
                 "AeEnable": False,
                 "AwbEnable": False,
@@ -158,3 +159,4 @@ elif mode == "3":
     perform_analysis()
 else:
     print("Invalid mode selected.")
+
