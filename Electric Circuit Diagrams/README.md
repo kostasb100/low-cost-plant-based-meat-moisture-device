@@ -1,12 +1,12 @@
-Description of the Developed Moisture Measurement Device Circuit
+# Description of the Developed Moisture Measurement Device Circuit
 
-The circuit consists of the following main parts:
+## The circuit consists of the following main parts:
 1) Raspberry Pi 4 Model B microcontroller
 2) Halogen lamp drive circuit
 3) LED illumination circuits (2 circuits)
 4) Load cell and its AD converter circuit
 
-Below are the detailed explanations of these parts:
+## Below are the detailed explanations of these parts:
 
 1) The microcontroller is powered by a 5 V / 3 A DC power supply. It can also be powered by a power bank (mobile battery) with the same specifications.
 
