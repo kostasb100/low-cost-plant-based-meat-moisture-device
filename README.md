@@ -6,7 +6,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 - Mechanical diagrams of the developed device  
 - Software and programs used for the device and its measurement data analysis  
 - Electrical circuit diagrams of the developed device  
-- Additional materials to assist in recreating the device  
+- Additional materials to assist in recreating the device and the plant-based meat used
 
 ## For additional informations or questions please contact:
 
