@@ -9,5 +9,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 - Additional materials to assist in recreating the device  
 
 ## For additional informations or questions please contact:
+
 Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
+
 Professor Samuel Choi, Optics and Photonics Laboratory, Niigata University Samuel Choi (schoi@eng.niigat-u.ac.jp)
