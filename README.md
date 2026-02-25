@@ -7,3 +7,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 - Software and programs used for the device and its measurement data analysis  
 - Electrical circuit diagrams of the developed device  
 - Additional materials to assist in recreating the device  
+
+## For additional informations or questions please contact:
+Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
+Professor Samuel Choi, Optics and Photonics Laboratory, Niigata University Samuel Choi (schoi@eng.niigat-u.ac.jp)
