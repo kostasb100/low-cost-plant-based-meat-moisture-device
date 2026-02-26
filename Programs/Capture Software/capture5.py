@@ -1136,6 +1136,10 @@ class UI(QMainWindow):
                     "LensPosition": lens_position
                     })
 
+                    # Ensure that LEDs are turned off before noise capture
+                    self.set_led_low(self.led1_pin)
+                    self.set_led_low(self.led2_pin)
+                    
                     time.sleep(1.0)
 
                     self.set_experiment_status("noise_capture")
@@ -1159,26 +1163,8 @@ class UI(QMainWindow):
 
                     if self.led_capture_checkbox.isChecked():
                         self.set_experiment_status("led_capture")
-                            
-                        self.picam2.set_controls({
-                        "ExposureTime": 800000,
-                        "AnalogueGain": analog_gain,
-                        "ColourGains": (colour_gain_red,colour_gain_blue),
-                        "LensPosition": lens_position
-                        })
-
-                        for _ in range(3):
-                            self.picam2.capture_metadata()
-                            
-                        time.sleep(1.0) 
-                        
-                        self.set_led_high(self.led1_pin)
-                        self.set_led_high(self.led2_pin)
 
                         time.sleep(1.0)
-                        
-                        for _ in range(3):
-                            self.picam2.capture_metadata()
 
                         self.image_thread = SingleCaptureThread(
                             shutter_folder, main_title_led_image, led_num, led_pause,
