@@ -25,7 +25,13 @@ The sample was prepared in a regular kitchen using the following procedure:
 
 1) The dry ingredients (wheat gluten , nutritional yeast, and negligible amounts of black pepper and paprika powder) were mixed thoroughly in a large bowl.
 
-![Dry ingredients placed in a bowl](../Images/dry_ingredients.jpg)
+<p align="center">
+  <img src="../Images/dry_ingredients.jpg" width="60%">
+</p>
+
+<p align="center">
+  <em>Figure 1. Dry components used in the preparation of the plant-based meat sample.</em>
+</p>
 
 
 
