@@ -42,9 +42,8 @@ The sample was prepared in a regular kitchen using the following procedure:
 </p>
 
 <p align="center">
-  <em>Figure 1. Dough that was formed by compining the dry and wet ingredients.</em>
+  <em>Figure 2. Dough that was formed by compining the dry and wet ingredients.</em>
 </p>
-
 
 4) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
 
@@ -53,7 +52,7 @@ The sample was prepared in a regular kitchen using the following procedure:
 </p>
 
 <p align="center">
-  <em>Figure 1. Loaf that was lightly coated with olive oil.</em>
+  <em>Figure 3. Loaf that was lightly coated with olive oil.</em>
 </p>
 
 <p align="center">
@@ -61,9 +60,21 @@ The sample was prepared in a regular kitchen using the following procedure:
 </p>
 
 <p align="center">
-  <em>Figure 1. Loaf wrapped in aluminium foil.</em>
+  <em>Figure 4. Loaf wrapped in aluminium foil.</em>
 </p>
 
-5) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen. 
+5) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen.
+
+<p align="center">
+  <img src="../Images/steaming.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 5. Steaming of the plant-based meat.</em>
+</p>
+
+6) The loafs were then either frozen or stored in a refrigerator for up to a week.
+
+7) On the day of the experiments a 8 cm(lenght) x 3 cm(width) x 1 cm(thickness) rectangle-shaped sample was cut from inside of this sample using a regular kitchen knife.
 
  
