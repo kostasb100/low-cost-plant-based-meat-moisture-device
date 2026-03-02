@@ -94,10 +94,10 @@ The sample was prepared in a regular kitchen using the following procedure:
 </p>
 
 ## References
-[1] Schopf, M., Wehrli, M.C., Becker, T. et al. Fundamental characterization of wheat gluten. Eur Food Res Technol 247, 985–997, \url{https://doi.org/10.1007/s00217-020-03680-z}, (2021).
+[1] Schopf, M., Wehrli, M.C., Becker, T. et al. Fundamental characterization of wheat gluten. Eur Food Res Technol 247, 985–997, https://doi.org/10.1007/s00217-020-03680-z, (2021).
 
-[2] Okouchi, R., Sakanoi, Y., Tsuduki, T. Miso (Fermented Soybean Paste) Suppresses Visceral Fat Accumulation in Mice, Especially in Combination with Exercise. Nutrients, 11(3), 560, \url{https://doi.org/10.3390/nu11030560}, (2019).
+[2] Okouchi, R., Sakanoi, Y., Tsuduki, T. Miso (Fermented Soybean Paste) Suppresses Visceral Fat Accumulation in Mice, Especially in Combination with Exercise. Nutrients, 11(3), 560, https://doi.org/10.3390/nu11030560, (2019).
 
-[3] Sunanta, P., Pankasemsuk, T., Jantanasakulwong, K., Chaiyaso, T., Leksawasdi, N., Phimolsiripol, Y., Rachtanapun, P., Seesuriyachan, P., Sommano, S. R. Does Curing Moisture Content Affect Black Garlic Physiochemical Quality? Horticulturae, 7(12), 535,  \url{https://doi.org/10.3390/horticulturae7120535}, (2021).
+[3] Sunanta, P., Pankasemsuk, T., Jantanasakulwong, K., Chaiyaso, T., Leksawasdi, N., Phimolsiripol, Y., Rachtanapun, P., Seesuriyachan, P., Sommano, S. R. Does Curing Moisture Content Affect Black Garlic Physiochemical Quality? Horticulturae, 7(12), 535,  https://doi.org/10.3390/horticulturae7120535, (2021).
 
-[4] Jach, M. E., Serefko, A., Ziaja, M., Kieliszek, M. Yeast Protein as an Easily Accessible Food Source. Metabolites, 12(1), 63, \url{https://doi.org/10.3390/metabo12010063}, (2022).
+[4] Jach, M. E., Serefko, A., Ziaja, M., Kieliszek, M. Yeast Protein as an Easily Accessible Food Source. Metabolites, 12(1), 63, https://doi.org/10.3390/metabo12010063, (2022).
