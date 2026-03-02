@@ -2,7 +2,7 @@
 
 ## Ingredients used
 
-- Wheat gluten flour (nichie Wheat Gluten Flour, [(https://www.amazon.co.jp/dp/B07FSFBTZH?ref=ppx_yo2ov_dt_b_fed_asin_title)])
+- Wheat gluten flour (nichie Wheat Gluten Flour, [https://www.amazon.co.jp/dp/B07FSFBTZH?ref=ppx_yo2ov_dt_b_fed_asin_title])
 - Miso paste (Hikari Miso, Craft Miso, Nama-Koji, [bought at a local supermarket])
 - Nutritional yeast (Arisan Nutritional Yeast, [https://www.amazon.co.jp/-/en/%E3%82%A2%E3%83%AA%E3%82%B5%E3%83%B3-Arisan-Nutritional-Yeast-200g/dp/B00P1XJ4RG?th=1])
 - Minced garlic [bought at a local supermarket]
@@ -20,6 +20,8 @@
 | Water                | ~49.7            | 100.0                      |
 | Black pepper         | < 0.1            | Negligible                 |
 | Paprika powder       | < 0.1            | Negligible                 |
+
+For example, in this research two cilinder-shaped loaves were produced using 350 g of gluten, 40 g of miso paste, 6 g of garlic, 13 g of nutritional yeast, and 413 g (ml) of water. Each loaf weighed approximately 400 g and yielded 4 to 6 samples of around 30 g each, with dimensions of 8 cm (length) x 3 cm (width) x 1 cm (thickness). The samples were rectangular in shape and did not have rounded edges.
 
 The sample was prepared in a regular kitchen using the following procedure:
 
