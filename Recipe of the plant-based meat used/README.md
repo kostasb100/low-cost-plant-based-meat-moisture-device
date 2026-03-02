@@ -25,7 +25,7 @@ The sample was prepared in a regular kitchen using the following procedure:
 
 1) The dry ingredients (wheat gluten , nutritional yeast, and negligible amounts of black pepper and paprika powder) were mixed thoroughly in a large bowl.
 
-![Dry ingredients placed in a bowl](Images/dry_ingredients.jpg)
+![Dry ingredients placed in a bowl](../Images/dry_ingredients.jpg)
 
 
 
