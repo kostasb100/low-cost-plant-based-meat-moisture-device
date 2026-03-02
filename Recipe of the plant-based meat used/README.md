@@ -26,21 +26,44 @@ The sample was prepared in a regular kitchen using the following procedure:
 1) The dry ingredients (wheat gluten , nutritional yeast, and negligible amounts of black pepper and paprika powder) were mixed thoroughly in a large bowl.
 
 <p align="center">
-  <img src="../Images/dry_ingredients.jpg" width="60%">
+  <img src="../Images/dry_ingredients.jpg" width="40%">
 </p>
 
 <p align="center">
   <em>Figure 1. Dry components used in the preparation of the plant-based meat sample.</em>
 </p>
 
+2) Minced garlic and miso paste (Hikari Miso, Craft Miso, Nama-Koji) were then added to warm water and stirred until the miso paste was fully dissolved.
+
+3) The wet and dry ingredients were subsequently combined to form a dough.
+
+<p align="center">
+  <img src="../Images/dough.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 1. Dough that was formed by compining the dry and wet ingredients.</em>
+</p>
 
 
-3) Minced garlic and miso paste (Hikari Miso, Craft Miso, Nama-Koji) were then added to warm water and stirred until the miso paste was fully dissolved.
+4) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
 
-4) The wet and dry ingredients were subsequently combined to form a dough.
+<p align="center">
+  <img src="../Images/loaf.jpg" width="40%">
+</p>
 
-5) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
+<p align="center">
+  <em>Figure 1. Loaf that was lightly coated with olive oil.</em>
+</p>
 
-6) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen. 
+<p align="center">
+  <img src="../Images/loaf_wrapped_in_foil.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 1. Loaf wrapped in aluminium foil.</em>
+</p>
+
+5) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen. 
 
  
