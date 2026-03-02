@@ -7,7 +7,7 @@
 - Nutritional yeast (Arisan Nutritional Yeast, [https://www.amazon.co.jp/-/en/%E3%82%A2%E3%83%AA%E3%82%B5%E3%83%B3-Arisan-Nutritional-Yeast-200g/dp/B00P1XJ4RG?th=1])
 - Minced garlic [bought at a local supermarket]
 - Negligible amounts of black pepper and paprika powder
-- Water
+- Tap water
 
 # Ratio of ingredients used to prepare the plant-based meat loafs
 
@@ -21,10 +21,12 @@
 | Black pepper         | < 0.1            | Negligible                 |
 | Paprika powder       | < 0.1            | Negligible                 |
 
-
 The sample was prepared in a regular kitchen using the following procedure:
 
 1) The dry ingredients (wheat gluten , nutritional yeast, and negligible amounts of black pepper and paprika powder) were mixed thoroughly in a large bowl.
+
+
+
 
 2) Minced garlic and miso paste (Hikari Miso, Craft Miso, Nama-Koji) were then added to warm water and stirred until the miso paste was fully dissolved.
 
