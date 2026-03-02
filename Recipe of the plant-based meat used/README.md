@@ -88,7 +88,7 @@ The sample was prepared in a regular kitchen using the following procedure:
 7) On the day of the experiments a 8 cm(lenght) x 3 cm(width) x 1 cm(thickness) rectangle-shaped sample that weighed between 30 and 35 grams was cut from inside of the cooked loaf using a regular kitchen knife and stored inside of a sealed plastic bag until the start of the experiment.
 
 <p align="center">
-  <img src="../Images/loaf.jpg" width="40%">
+  <img src="../Images/sample.jpg" width="40%">
 </p>
 
 <p align="center">
