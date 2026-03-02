@@ -9,7 +9,7 @@
 - Negligible amounts of black pepper and paprika powder
 - Tap water
 
-## Ratio of ingredients used to prepare the plant-based meat loafs
+## Ratio of ingredients used to prepare the plant-based meat loaves
 
 | Ingredient           | Total ratio [%] | Water content [%]         |
 |----------------------|------------------|----------------------------|
@@ -47,7 +47,7 @@ The sample was prepared in a regular kitchen using the following procedure:
   <em>Figure 2. Dough that was formed by compining the dry and wet ingredients.</em>
 </p>
 
-4) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
+4) The dough was then shaped into loaves and wrapped in aluminum foil lightly coated with olive oil.
 
 <p align="center">
   <img src="../Images/loaf.jpg" width="40%">
@@ -65,7 +65,7 @@ The sample was prepared in a regular kitchen using the following procedure:
   <em>Figure 4. Loaf wrapped in aluminium foil.</em>
 </p>
 
-5) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen.
+5) The loaves were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen.
 
 <p align="center">
   <img src="../Images/steaming.jpg" width="40%">
@@ -75,7 +75,7 @@ The sample was prepared in a regular kitchen using the following procedure:
   <em>Figure 5. Steaming of the plant-based meat.</em>
 </p>
 
-6) The cooked loafs were then either frozen or stored in a refrigerator for up to a week.
+6) The cooked loaves were then either frozen or stored in a refrigerator for up to a week.
 
 <p align="center">
   <img src="../Images/cooked_loaf.jpg" width="40%">
