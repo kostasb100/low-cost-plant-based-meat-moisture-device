@@ -24,16 +24,17 @@
 The sample was prepared in a regular kitchen using the following procedure:
 
 1) The dry ingredients (wheat gluten , nutritional yeast, and negligible amounts of black pepper and paprika powder) were mixed thoroughly in a large bowl.
-![Dry ingredients placed in a bowl](../images/dry_ingredients.jpg)
+
+![Dry ingredients placed in a bowl](Images/dough.jpg)
 
 
 
-2) Minced garlic and miso paste (Hikari Miso, Craft Miso, Nama-Koji) were then added to warm water and stirred until the miso paste was fully dissolved.
+3) Minced garlic and miso paste (Hikari Miso, Craft Miso, Nama-Koji) were then added to warm water and stirred until the miso paste was fully dissolved.
 
-3) The wet and dry ingredients were subsequently combined to form a dough.
+4) The wet and dry ingredients were subsequently combined to form a dough.
 
-4) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
+5) The dough was then shaped into loafs and wrapped in aluminum foil lightly coated with olive oil.
 
-5) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen. 
+6) The loafs were then steamed for one hour (30 minutes on each side) and allowed to cool for several hours before being either refrigerated or frozen. 
 
  
