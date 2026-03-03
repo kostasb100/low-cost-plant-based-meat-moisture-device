@@ -48,7 +48,7 @@ for time_dir in time_dirs:
     folder_path = os.path.join(root_dir, time_dir)
     time_value = float(time_dir)
 
-    json_path = os.path.join(folder_path, "weight.json")
+    json_path = os.path.join(folder_path, f"{time_dir}.json")
 
     if not os.path.isfile(json_path):
         continue
@@ -65,6 +65,7 @@ for time_dir in time_dirs:
 f.close()
 
 print("Weight data saved in:", output_csv)
+
 
 
 
