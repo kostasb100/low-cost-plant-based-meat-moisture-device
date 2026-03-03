@@ -44,7 +44,7 @@ DEFAULTS = {
 class UI(QMainWindow):
     def __init__(self):
         super(UI, self).__init__()
-        uic.loadUi("image_2.ui",self)
+        uic.loadUi("image.ui",self)
         self.open_file_button = self.findChild(QPushButton, "pushButton")
         self.apply_settings_button = self.findChild(QPushButton, "pushButton_2")
         self.corner_selection_button = self.findChild(QPushButton, "pushButton_3")
@@ -574,3 +574,4 @@ class UI(QMainWindow):
 app = QApplication(sys.argv)
 UIWindow = UI()
 app.exec()
+
