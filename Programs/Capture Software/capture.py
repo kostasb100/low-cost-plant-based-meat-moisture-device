@@ -219,7 +219,7 @@ class CaptureThread(QThread):
 class UI(QMainWindow):
     def __init__(self):
         super(UI, self).__init__()
-        uic.loadUi("capture_2.ui", self)
+        uic.loadUi("capture.ui", self)
         self.show()
 
         self.capture_both_button = self.findChild(QPushButton, "pushButton")
