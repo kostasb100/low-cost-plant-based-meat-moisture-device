@@ -22,9 +22,5 @@ Moisture content is one of the most important parameters in plant-based meat pro
 ## Theory
 The proposed approach exploits the characteristic infrared light absorption of water, using illumination from a simple halogen light source and image acquisition with a Raspberry Pi camera. By relying on simple optical components and image-based analysis rather than specialized instrumentation, the device provides a practical alternative for initial characterization of plant-based meat products.
 
-
-## Implementation
 ## Current Results
 ## Future Work
-## Repository Structure
-## How to Run
