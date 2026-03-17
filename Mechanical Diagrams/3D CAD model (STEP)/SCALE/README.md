@@ -1,4 +1,4 @@
-## Scale components of the measurement device (S1-S7)
+## Scale components of the measurement device (S1-S6)
 
 S1 and S2: S1 is the upper plate of the scale. It is meant to be screwed onto the load cell, the other end of which should be screwed into S2 and connected to the camera stand (CS) plate CS1.
 
