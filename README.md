@@ -38,7 +38,7 @@ Moisture content is a key parameter affecting the texture, taste, and overall qu
 Water molecules are known to absorb electromagnetic radiation (light) over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the corresponding absorption coeffcient is shown in Figure 1.
 
 <p align="center">
-  <img src="../Images/water_absorption_spectrum.jpg" width="40%">
+  <img src="Images/water_absorption_spectrum.jpg" width="40%">
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ Water molecules are known to absorb electromagnetic radiation (light) over a wid
 In the UV region (100 nm to 400 nm), as well as in the mid-IR (3 µm to 50 µm) and far-IR (50 µm to 1000 µm) regions, water exhibits strong absorption. In the context of food analysis, such strong absorption limits measurements to very thin samples. If light of a particular wavelength entering a sample is absorbed by water to the point that the reflected intensity is very low, it becomes difficult to detect using low-cost equipment. In contrast, water absorption in the near-infrared (NIR;0.7 um to 3 um) region is signicantly weaker. As a result, sufficient transmitted intensity can be obtained even for thicker samples, enabling non-destructive analysis of whole plant-based meat products such as hamburger patties with minimal sample preparation. 
 
 <p align="center">
-  <img src="../Images/water_absorption_nir.jpg" width="40%">
+  <img src="Images/water_absorption_nir.jpg" width="40%">
 </p>
 
 <p align="center">
