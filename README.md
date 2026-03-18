@@ -64,7 +64,7 @@ If it is assumed that changes in reflected light intensity due to variations in 
 
 
 <p align="center">
-  <img src="Images/device1.jpg" width="40%">
+  <img src="Images/device1.PNG" width="40%">
 </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ If it is assumed that changes in reflected light intensity due to variations in 
 </p>
 
 <p align="center">
-  <img src="Images/device2.jpg" width="40%">
+  <img src="Images/device2.PNG" width="40%">
 </p>
 
 <p align="center">
