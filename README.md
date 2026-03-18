@@ -28,13 +28,29 @@ Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
 
 Professor Samuel Choi, Optics and Photonics Laboratory, Niigata University Samuel Choi (schoi@eng.niigat-u.ac.jp)
 
-## Aim
-In recent years, there has been increasing interest in the development of alternative proteins, such as plant-based meats. However, most development of such products is happening in developed countries like North America and Europe. This is largely because food development and analysis often require expensive facilities and equipment, such as spectrometers, which may not be available in developing countries or educational institutions with limited budgets. This lack of access not only prevents such countries and institutions from engaging in the field but may also hinder the global advancement of alternative protein research.
+## Aim of this project
+Interest in alternative proteins such as plant-based meats has grown in recent years, but development remains concentrated in regions like North America and Europe due to the need for expensive facilities and equipment. This limits access for developing countries and institutions with restricted budgets, potentially hindering global progress in this field.
 
-Moisture content is one of the most important parameters in plant-based meat products, as it directly influences texture, taste, and overall product quality and is typically evaluated using expensive devices such as spectrometers. This project investigates the feasibility of a low-cost, Raspberry Pi-based imaging device for the non-destructive, real-time measurement of a plant-based meat sample's moisture content, which could be used during the product development phase. It also examines the feasibility of using the same device to analyze changes in the sample's moisture content, size, and color over time, thereby further providing useful information about the sample's optical and physical properties.
+Moisture content is a key parameter affecting the texture, taste, and overall quality of plant-based meat products and is typically measured using costly equipment such as spectrometers. This project investigates the feasibility of a low-cost, Raspberry Pi-based imaging device for non-destructive, real-time moisture measurement during product development. It also explores the use of the same device to track changes in moisture content, size, and color over time, providing insight into the sample’s optical and physical properties.
 
-## Theory
+## Basic theory behind the research
+
+Water molecules are known to absorb electromagnetic radiation over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the
+corresponding absorption coecient is shown in Figure 2.
+
+
+
+
+
+
+
 The proposed approach exploits the characteristic infrared light absorption of water, using illumination from a simple halogen light source and image acquisition with a Raspberry Pi camera. By relying on simple optical components and image-based analysis rather than specialized instrumentation, the device provides a practical alternative for initial characterization of plant-based meat products.
 
 ## Current Results
 ## Future Work
+
+## References
+[1] Muncan, J., Tsenkova, R. Aquaphotomics|From Innovative Knowledge to Integrative Platform
+in Science and Technology. Molecules, 24(15), 2742. https://doi.org/10.3390/molecu
+les24152742 , (2019).
+
