@@ -20,13 +20,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 8) Conduct experiments and initial image processing using the user manual provided in the User Manual and Guide section of this repository.
 9) Conduct comprehensive (batch) post-experiment image processing using Programs/Other Programs/apv_calculator.py.
 10) Use other programs to visualize experiment results if necessary.
-11) Learn, improve, and enjoy the process. If you notice any issues or make improvements, please contact the creator of this repository (Kostas Martynas Balciunas).
-
-## For additional information, questions or possible please contact:
-
-Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
-
-Professor Samuel Choi, Optics and Photonics Laboratory, Niigata University Samuel Choi (schoi@eng.niigat-u.ac.jp)
+11) Learn, improve, and enjoy the process. If you notice any issues, make improvements or like to request for the actual data of the individual experiments conducted please contact the creator of this repository (Kostas Martynas Balciunas).
 
 ## Aim of this project
 Interest in alternative proteins such as plant-based meats has grown in recent years, but development remains concentrated in regions like North America and Europe due to the need for expensive facilities and equipment. This limits access for developing countries and institutions with restricted budgets, potentially hindering global progress in this field.
@@ -56,7 +50,7 @@ In the UV region (100 nm to 400 nm), as well as in the mid-IR (3 µm to 50 µm) 
 </p>
 
 More than 500 water absorption bands have been identified in the wavelength range from 400 to 2500 nm [2], but only four main bands, located approximately at 970, 1190, 1450, and 1940 nm, are considered to contain signicant information about water structure (moisture)(Figure 2). Among these, the absorption band at approximately 970 nm is of particular importance to this research. Although its absorbance is lower than that of the other main bands, this wavelength
-is relevant because some low-cost imaging sensors, such as the Raspberry Pi Camera Module 3 NoIR, are sensitive to wavelengths up to approximately 1000 nm [10]. 
+is relevant because some low-cost imaging sensors, such as the Raspberry Pi Camera Module 3 NoIR, are sensitive to wavelengths up to approximately 1000 nm [3]. 
 
 If it is assumed that changes in reflected light intensity due to variations in moisture content correspond to changes in average pixel intensities (API) in JPEG images or average pixel values (APV) in RAW (DNG) images, it may be possible to develop a low-cost device capable of detecting these changes. A low-cost device consisting of a Raspberry Pi 4 B microcontroller, its Raspberry Pi Camera Module 3 NoIR, and other easily available components is proposed as such a device.
 
@@ -90,13 +84,42 @@ Figures 3 to 5 show the developed moisture measurement device.The body of the de
 
 The Raspberry Pi Camera Module~3 NoIR (CA) was positioned directly above the sample location at an approximate distance of 9 cm from the sample surface. CA was mounted using screws and placed in close proximity to the microcontroller, which was also secured using screws. Although not shown in diagram, two white LEDs were installed to the left and right of the camera and were controlled by the microcontroller. These LEDs were used to monitor color changes in the sample. Additional plastic caps were attached to each LED to diffuse their emitted light.
 
-The sample was placed on a scale constructed using a 500 g capacity load cell (Sensorcon, Micro Type Load Cell SC616C) , a 3D-printed black plate and an HX711 chip-based AD converter module (Akitsuki Denshi, AE-HX711-SIP) for signal acquisition. The module and its associated circuitry were housed inside an enclosure attached to the main sample chamber. 
+The sample was placed on a scale constructed using a 500 g capacity load cell (Sensorcon, Micro Type Load Cell SC616C) , a 3D-printed black plate and an HX711 chip-based AD converter module (Akitsuki Denshi, AE-HX711-SIP) for signal acquisition. The module and its associated circuitry were housed inside an enclosure attached to the main sample chamber. It is important to note that the scale is only used for the initial experiments and the calibration of the device and is not supposed to be used when the device is fully developed.
 
 An additional platform as shown in Mechanical Diagrams/2D diagrams/SCALE/S6.PNG was later introduced on top of the scale to allow the sample to dry from its bottom surface rather than from its upper surface. This platform was designed in such a way that a piece of translucent plastic cut from a file holder could be placed over the plant-based meat sample and fixed in place.
 
 
 
 ## Future Work
+These are the areas in which the device could potentially be improved:
+
+- Multiple programs used in this research could be combined into a single GUI-based application. This software could be extended to automatically optimize image acquisition and processing parameters, for example by using machine learning techniques.
+
+- Further analysis and experiments are required to determine which regions of the images (inside the sample, outside the sample, or the total image area with shrinkage removed) provide the most valuable information for moisture estimation. It may be necessary to consider all regions to obtain reliable measurements.
+
+- Currently, identical image processing parameters are applied to every experimental cycle, which may introduce errors. It is therefore necessary to evaluate how well the shrinkage area is detected throughout the experiment and potentially implement a time-based shrinkage area detection algorithm that adapts to optical changes in the sample surface due to moisture loss.
+
+- The experimental workflow (capture.py) could be improved by first capturing images at higher shutter speeds (for edge detection) and then at lower speeds only for APV calculations (moisture analysis).
+
+- The correlation between shutter speed (exposure time) and changes in APV/moisture content loss (measured using the HX711-based scale) should be analyzed. There may be an optimal shutter speed at which moisture content changes are most accurately evaluated.
+
+- The weight scale and the algorithm used to acquire measurements should be improved, as the current setup does not provide accurate results. In many experiments, the sample weight increased during the initial hours, which is unlikely under dry winter conditions (December–January in Niigata). This may be due to faulty wiring, measurement drift, or issues in the capture.py pipeline (Programs/Capture Software/capture.py).
+
+- The correlation between changes in APV in different regions of the sample and changes in sample weight should be analyzed (after resolving the scale-related issues).
+
+- The mechanical design of the device could be improved to make it more compact, easier to assemble, and better at preventing stray light from entering the sample chamber.
+
+- The electronics (circuit boards, jumper wires, etc.) could be reorganized to fit more neatly, be shorter, and be easier to remove.
+
+- The distances between the halogen lamp, Fresnel lens, infrared transmittance filter, and the sample were not optimized. Further experiments are required to determine the optimal configuration, as well as the optimal distance between the camera and the sample.
+
+- Different low-cost light sources, such as ~940 nm NIR LEDs, halogen-tungsten lamps, or halogen lamps with different power ratings, could be evaluated to determine their effect on measurement results and to identify the most suitable illumination source.
+
+- Multiple light sources positioned at different angles could also be tested to assess their effect on measurement results, although this would require additional power supplies. Multiple visible light filters could also be used to further reduce the influence of visible and stray light.
+
+- Different plant-based meat recipes can be explored. These may include ingredients such as chickpea flour, soy protein isolate, pea protein isolate, rice protein isolate, tofu, okara (soy pulp remaining after tofu or soy milk production), as well as various root vegetables and legumes. The proposed device could be further developed and calibrated for such variations.
+
+- A more user-friendly manual and repository could be developed to make this project more accessible to people with different backgrounds :P
 
 ## References
 [1] Muncan, J., Tsenkova, R. Aquaphotomics|From Innovative Knowledge to Integrative Platform
@@ -105,3 +128,13 @@ in Science and Technology. Molecules, 24(15), 2742. https://doi.org/10.3390/mole
 [2] Tsenkova, R., Kovacs, Z., Kubota, Y. Aquaphotomics: Near Infrared Spectroscopy and
 Water States in Biological Systems. Sub-cellular biochemistry, 71, 189{211, https://doi.org/10.1007/978-3-319-19060-0_8, (2015).
 
+[3] J. Howell, B. Flores, J. Naranjo, A. Mendez, C.C. Vera, C. Koumriqian, J. Jordan, P.
+Neethling, C. Groenewald, M. Lovemore, P. Kinsey, T. Kruger. Raspberry Pi multispectral
+imaging camera system (PiMICS): a low-cost, skills-based physics educational tool.
+10.48550/arXiv.2412.04679, (2024).
+
+## For additional information, questions or possible please contact:
+
+Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
+
+Professor Samuel Choi, Optics and Photonics Laboratory, Niigata University Samuel Choi (schoi@eng.niigat-u.ac.jp)
