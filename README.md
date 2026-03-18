@@ -133,7 +133,7 @@ Neethling, C. Groenewald, M. Lovemore, P. Kinsey, T. Kruger. Raspberry Pi multi
 imaging camera system (PiMICS): a low-cost, skills-based physics educational tool.
 10.48550/arXiv.2412.04679, (2024).
 
-## For additional information, questions or suggestions please contact:
+## For more additional information, questions or suggestions please contact:
 
 Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
 
