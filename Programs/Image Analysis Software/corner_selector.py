@@ -12,7 +12,6 @@ This program:
 Purpose:
 - Enables the user to find the location and angle drift of the plant based meat sample
   after manually choosing it's and the reference shape's corners.
-- Can 
 
 2026-03
 '''
