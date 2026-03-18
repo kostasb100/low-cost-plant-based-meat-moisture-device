@@ -10,7 +10,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 
 ## Guide to those seeking to recreate the device:
 
-1) Carefully read the Aim, Theory, Current Results, and Future Work sections of this README.md file.
+1) Carefully read the Aim of this project, Basic theory behind the research, Current Results, and Future Work sections of this README.md file to understand the basic concepts of the developed measurement device and it's limitations.
 2) Buy the necessary materials to build the measurement device (print the 3D model of the device and assemble the electrical circuits) and prepare the plant-based meat sample (other recipes for plant-based meat samples can also be used).
 3) Set up your Raspberry Pi 4 B module (it may be possible to use other Raspberry Pi microcontrollers as well) and install the necessary libraries and software (refer to Programs).
 4) Recreate the electrical circuits used in the measurement device (refer to Electrical Circuit Diagrams). Make sure they work as standalone circuits before connecting them to the microcontroller.
