@@ -20,7 +20,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 8) Conduct experiments and initial image processing using the user manual provided in the User Manual and Guide section of this repository.
 9) Conduct comprehensive (batch) post-experiment image processing using Programs/Other Programs/apv_calculator.py.
 10) Use other programs to visualize experiment results if necessary.
-11) Learn, improve, and enjoy the process. If you notice any issues, make improvements or like to request for the actual data of the individual experiments conducted please contact the creator of this repository (Kostas Martynas Balciunas).
+11) Learn, improve, and enjoy the process. If you notice any issues, make improvements or like to request for the actual data of the individual experiments conducted please contact the creator of this repository (contacts are listed at the bottom of this file).
 
 ## Aim of this project
 Interest in alternative proteins such as plant-based meats has grown in recent years, but development remains concentrated in regions like North America and Europe due to the need for expensive facilities and equipment. This limits access for developing countries and institutions with restricted budgets, potentially hindering global progress in this field.
