@@ -35,22 +35,35 @@ Moisture content is a key parameter affecting the texture, taste, and overall qu
 
 ## Basic theory behind the research
 
-Water molecules are known to absorb electromagnetic radiation over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the
-corresponding absorption coecient is shown in Figure 2.
+Water molecules are known to absorb electromagnetic radiation (light) over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the corresponding absorption coeffcient is shown in Figure 1.
 
+<p align="center">
+  <img src="../Images/water_absorption_spectrum.jpg" width="40%">
+</p>
 
+<p align="center">
+  <em>Figure 1. The water absorption spectrum.</em>
+</p>
 
+In the UV region (100 nm to 400 nm), as well as in the mid-IR (3 µm to 50 µm) and far-IR (50 µm to 1000 µm) regions, water exhibits strong absorption. In the context of food analysis, such strong absorption limits measurements to very thin samples. If light of a particular wavelength entering a sample is absorbed by water to the point that the reflected intensity is very low, it becomes difficult to detect using low-cost equipment. In contrast, water absorption in the near-infrared (NIR;0.7 um to 3 um) region is signicantly weaker. As a result, sufficient transmitted intensity can be obtained even for thicker samples, enabling non-destructive analysis of whole plant-based meat products such as hamburger patties with minimal sample preparation. 
 
+<p align="center">
+  <img src="../Images/water_absorption_nir.jpg" width="40%">
+</p>
 
+<p align="center">
+  <em>Figure 2. Near-infrared spectra of pure water.</em>
+</p>
 
-
-The proposed approach exploits the characteristic infrared light absorption of water, using illumination from a simple halogen light source and image acquisition with a Raspberry Pi camera. By relying on simple optical components and image-based analysis rather than specialized instrumentation, the device provides a practical alternative for initial characterization of plant-based meat products.
+More than 500 water absorption bands have been identied in the wavelength range from 400 to 2500 nm [2], only four main bands, located approximately at 970, 1190, 1450, and 1940 nm, are considered to contain signicant information about water structure (moisture)(Figure 2). Among these, the absorption band at approximately 970 nm is of particular importance to this research. Although its absorbance is lower than that of the other main bands, this wavelength
+is relevant because some low-cost imaging sensors, such as the Raspberry Pi Camera Module 3 NoIR, are sensitive to wavelengths up to approximately 1000 nm [10]. This suggests that it may be possible to develop a low-cost device capable of detecting changes in light absorption caused by variations in the moisture content of a sample, thereby providing a means to estimate the sample's moisture content.
 
 ## Current Results
 ## Future Work
 
 ## References
 [1] Muncan, J., Tsenkova, R. Aquaphotomics|From Innovative Knowledge to Integrative Platform
-in Science and Technology. Molecules, 24(15), 2742. https://doi.org/10.3390/molecu
-les24152742 , (2019).
+in Science and Technology. Molecules, 24(15), 2742. https://doi.org/10.3390/molecules24152742 , (2019).
+[2] Tsenkova, R., Kovacs, Z., Kubota, Y. Aquaphotomics: Near Infrared Spectroscopy and
+Water States in Biological Systems. Sub-cellular biochemistry, 71, 189{211, https://doi.org/10.1007/978-3-319-19060-0_8, (2015).
 
