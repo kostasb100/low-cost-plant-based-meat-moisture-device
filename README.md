@@ -8,7 +8,21 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 - Electrical circuit diagrams of the developed device  
 - Additional materials to assist in recreating the device and the plant-based meat used
 
-## For additional information or questions please contact:
+## Guide to those seeking to recreate the device:
+
+1) Carefully read the Aim, Theory, Current Results, and Future Work sections of this README.md file.
+2) Buy the necessary materials to build the measurement device (print the 3D model of the device and assemble the electrical circuits) and prepare the plant-based meat sample (other recipes for plant-based meat samples can also be used).
+3) Set up your Raspberry Pi 4 B module (it may be possible to use other Raspberry Pi microcontrollers as well) and install the necessary libraries and software (refer to Programs).
+4) Recreate the electrical circuits used in the measurement device (refer to Electrical Circuit Diagrams). Make sure they work as standalone circuits before connecting them to the microcontroller.
+5) 3D print and construct the case for the measurement device (refer to Mechanical Diagrams). 3D printing the device is not necessary, since 2D diagrams are provided (Mechanical Diagrams/2D diagrams), and it is possible to recreate the device using cheaper materials such as cardboard or plywood. However, it is important to note that the precision of the measurement device may suffer due to the unevenness of individual components made by hand.
+6) Install the electrical circuits and the Raspberry Pi Camera Module 3 NoIR into the case of the device.
+7) Prepare the plant-based meat sample for the experiments (refer to Recipe of the plant-based meat used).
+8) Conduct experiments and initial image processing using the user manual provided in the User Manual and Guide section of this repository.
+9) Conduct comprehensive (batch) post-experiment image processing using Programs/Other Programs/apv_calculator.py.
+10) Use other programs to visualize experiment results if necessary.
+11) Learn, improve, and enjoy the process. If you notice any issues or make improvements, please contact the creator of this repository (Kostas Martynas Balciunas).
+
+## For additional information, questions or possible please contact:
 
 Graduate of Niigata University Kostas Martynas Balciunas (kostbal55@gmail.com)
 
