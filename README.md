@@ -62,6 +62,7 @@ If it is assumed that changes in reflected light intensity due to variations in 
 
 ## Current Results
 
+Figures 3 to 5 show the developed moisture measurement device.The body of the device was fabricated using a 3D printer (Creality K1). It was printed in multiple parts using black 1.75 mm diameter PLA filament (Creality Ender, 3D PLA BLACK 1.75 mm) and assembled using screws or adhesive. The device incorporates a light source consisting of a 4.8 V, 0.5 A halogen lamp (HL) (National, Halogen Miniature Lamp MB-48M5H), which emits both visible and NIR light. A white plastic cap (CP) obtained from a PET bottle and assumed to be made out of either polyethylene or polypropylene was affixed above the lamp to scatter the emitted light. The scattered light is further dispersed using a Fresnel lens (FL) (CAN DO 100 yen shop, Card Magnifier, 2.5 × magnification) placed 4.0 cm from the halogen lamp and subsequently passed through an infrared transmittance filter (IRF) that absorbs wavelengths below 900 nm (FUJIFILM, Infrared Transmittance Filter IR90, 7.5 × 7.5). These optical components were housed inside a small enclosure with an adjustable angle. All experiments were conducted with the enclosure fixed at an angle of 33° relative to the base of the device. The FL was positioned as close as possible to the filter (at a distance of around 1 cm), with the infrared transmittance filter placed at the end of the enclosure facing the sample. The filter was positioned approximately 10 cm from the sample, measured along a line perpendicular from the center of the transmittance filter to the sample surface. The light source was controlled using the circuit described in Electric Circuit Diagrams.
 
 <p align="center">
   <img src="Images/device1.PNG" width="40%">
@@ -76,7 +77,7 @@ If it is assumed that changes in reflected light intensity due to variations in 
 </p>
 
 <p align="center">
-  <em>Figure 3. 3D CAD model of the developed device.</em>
+  <em>Figure 4. 3D CAD model of the developed device.</em>
 </p>
 
 <p align="center">
@@ -84,8 +85,15 @@ If it is assumed that changes in reflected light intensity due to variations in 
 </p>
 
 <p align="center">
-  <em>Figure 3. Assembled developed device.</em>
+  <em>Figure 5. Assembled developed device.</em>
 </p>
+
+The Raspberry Pi Camera Module~3 NoIR (CA) was positioned directly above the sample location at an approximate distance of 9 cm from the sample surface. CA was mounted using screws and placed in close proximity to the microcontroller, which was also secured using screws. Although not shown in diagram, two white LEDs were installed to the left and right of the camera and were controlled by the microcontroller. These LEDs were used to monitor color changes in the sample. Additional plastic caps were attached to each LED to diffuse their emitted light.
+
+The sample was placed on a scale constructed using a 500 g capacity load cell (Sensorcon, Micro Type Load Cell SC616C) , a 3D-printed black plate and an HX711 chip-based AD converter module (Akitsuki Denshi, AE-HX711-SIP) for signal acquisition. The module and its associated circuitry were housed inside an enclosure attached to the main sample chamber. 
+
+An additional platform as shown in Mechanical Diagrams/2D diagrams/SCALE/S6.PNG was later introduced on top of the scale to allow the sample to dry from its bottom surface rather than from its upper surface. This platform was designed in such a way that a piece of translucent plastic cut from a file holder could be placed over the plant-based meat sample and fixed in place.
+
 
 
 ## Future Work
