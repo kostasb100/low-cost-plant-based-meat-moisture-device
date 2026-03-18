@@ -1,4 +1,4 @@
-Below is an explanation of each component that the measurement device consists of. It is recommended to 3D print the components in numerical order.
+Below is an explanation of each component that the measurement device consists of. It is recommended to 3D print the components and assemble them in numerical order.
 Some components may not be fully optimized, and their parameters may require further adjustment.
 
 ## Camera stand components of the measurement device (CS1-CS7)
