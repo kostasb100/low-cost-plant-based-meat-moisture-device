@@ -1,7 +1,7 @@
 Below is an explanation of each component that the measurement device consists of. It is recommended to 3D print the components and assemble them in numerical order.
 Some components may not be fully optimized, and their parameters may require further adjustment.
 
-Every component was printed using a Creality K1 3D printer and black 1.75~mm diameter PLA filament (Creality Ender, 3D PLA BLACK 1.75~mm) and assembled using screws or adhesive.
+Every component was printed using a Creality K1 3D printer and black PLA filament (Creality Ender, 3D PLA BLACK 1.75mm) and assembled using screws or adhesive.
 
 ## Camera stand components of the measurement device (CS1-CS7)
 CS1: Component that serves as the main base of the device. The two holes in the middle are used for S2. The small hole at the bottom of the wall is used to pass through the wires of the load cell to the HX711 weight scale module.
