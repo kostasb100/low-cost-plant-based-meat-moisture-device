@@ -81,7 +81,7 @@ Figures 3 to 5 show the developed moisture measurement device.The body of the de
 </p>
 
 <p align="center">
-  <em>Figure 5. Assembled developed device.</em>
+  <em>Figure 5. Assembled device.</em>
 </p>
 
 The Raspberry Pi Camera Module~3 NoIR (CA) was positioned directly above the sample location at an approximate distance of 9 cm from the sample surface. CA was mounted using screws and placed in close proximity to the microcontroller, which was also secured using screws. Although not shown in diagram, two white LEDs were installed to the left and right of the camera and were controlled by the microcontroller. These LEDs were used to monitor color changes in the sample. Additional plastic caps were attached to each LED to diffuse their emitted light.
