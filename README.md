@@ -10,7 +10,7 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 
 ## Guide to those seeking to recreate the device:
 
-1) Carefully read the Aim of this project, Basic theory behind the research, Current Results, and Future Work sections of this README.md file to understand the basic concepts of the developed measurement device and it's limitations.
+1) Carefully read the Aim, Basic Theory, Current Results, and Future Work sections of this README.md file to understand the basic concepts of the developed measurement device and it's limitations.
 2) Buy the necessary materials to build the measurement device (print the 3D model of the device and assemble the electrical circuits) and prepare the plant-based meat sample (other recipes for plant-based meat samples can also be used).
 3) Set up your Raspberry Pi 4 B module (it may be possible to use other Raspberry Pi microcontrollers as well) and install the necessary libraries and software (refer to Programs).
 4) Recreate the electrical circuits used in the measurement device (refer to Electrical Circuit Diagrams). Make sure they work as standalone circuits before connecting them to the microcontroller.
@@ -22,12 +22,12 @@ This repository contains work conducted at the Optics and Photonics Laboratory a
 10) Use other programs to visualize experiment results if necessary.
 11) Learn, improve, and enjoy the process. If you notice any issues, make improvements or like to request for the actual data of the individual experiments conducted please contact the creator of this repository (contacts are listed at the bottom of this file).
 
-## Aim of this project
+## Aim
 Interest in alternative proteins such as plant-based meats has grown in recent years, but development remains concentrated in regions like North America and Europe due to the need for expensive facilities and equipment. This limits access for developing countries and institutions with restricted budgets, potentially hindering global progress in this field.
 
 Moisture content is a key parameter affecting the texture, taste, and overall quality of plant-based meat products and is typically measured using costly equipment such as spectrometers. This project investigates the feasibility of a low-cost, Raspberry Pi-based imaging device for non-destructive, real-time moisture measurement during product development. It also explores the use of the same device to track changes in moisture content, size, and color over time, providing insight into the sample’s optical and physical properties.
 
-## Basic theory behind the project
+## Basic Theory
 
 Water molecules are known to absorb electromagnetic radiation (light) over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the corresponding absorption coeffcient is shown in Figure 1.
 
