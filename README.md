@@ -118,7 +118,7 @@ The initial mass of the sample was 34.01~g. Based on the Moisture Content Calcul
 </div>
 
 <p align="center">
-  <img src="Images/results1a.PNG" width="40%">
+  <img src="Images/results1a.PNG" width="80%">
 </p>
 
 <p align="center">
@@ -170,7 +170,7 @@ The initial mass of the sample was 34.01~g. Based on the Moisture Content Calcul
 </div>
 
 <p align="center">
-  <img src="Images/results2a.PNG" width="40%">
+  <img src="Images/results2a.PNG" width="80%">
 </p>
 
 <p align="center">
