@@ -52,7 +52,9 @@ In the UV region (100 nm to 400 nm), as well as in the mid-IR (3 µm to 50 µm) 
 More than 500 water absorption bands have been identified in the wavelength range from 400 to 2500 nm [2], but only four main bands, located approximately at 970, 1190, 1450, and 1940 nm, are considered to contain signicant information about water structure (moisture)(Figure 2). Among these, the absorption band at approximately 970 nm is of particular importance to this research. Although its absorbance is lower than that of the other main bands, this wavelength
 is relevant because some low-cost imaging sensors, such as the Raspberry Pi Camera Module 3 NoIR, are sensitive to wavelengths up to approximately 1000 nm [3]. 
 
-If it is assumed that changes in reflected light intensity due to variations in moisture content correspond to changes in average pixel intensities (API) in JPEG images or average pixel values (APV) in RAW (DNG) images, it may be possible to develop a low-cost device capable of detecting these changes. A low-cost device consisting of a Raspberry Pi 4 B microcontroller, its Raspberry Pi Camera Module 3 NoIR, and other easily available components is proposed as such a device.
+If changes in moisture content affect reflected light intensity, and these changes are captured as variations in average pixel intensities (API) in JPEG images or average pixel values (APV) in RAW (DNG) images, then it may be possible to detect moisture changes using image data alone. 
+
+A low-cost device consisting of a Raspberry Pi 4 B microcontroller, its Raspberry Pi Camera Module 3 NoIR, and other readily available components is proposed for this purpose. If a decrease in moisture content (due to evaporation) consistently corresponds to an increase in pixel intensities or values, this would indicate that the device can be used for moisture analysis.
 
 ## Current Results
 
@@ -136,6 +138,15 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 <p align="center">
   <img src="Images/results1c.PNG" width="40%">
 </p>
+
+As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease in the APV across all analyzed image regions, contrary to the hypothesis stated previously. The initial APV of IA was 93.38 and decreased by approximately 5.54~\% to 88.21 at a rate of 0.01361~(a.u.)/min (Figure~\ref{fig:01_07_inside}). Figure~\ref{fig:01_07_outside} shows that the APV of OA decreased from 5.28 to 4.90, corresponding to a reduction of 7.31~\% at a rate of 0.001~(a.u.)/min, although transient increases in APV were observed at \( t = 200~\mathrm{min} \), \( t = 240~\mathrm{min} \), and \( t = 320~\mathrm{min} \). The APV of TA decreased from 41.62 to 38.20, representing a reduction of 8.22~\%, with an approximate decrease rate of 0.009~(a.u.)/min.
+
+
+
+
+
+
+
 
 <p align="center">
   <em>Figure 8. Darkened areas of the plant-based sample at different times(no plastic cover).</em>
