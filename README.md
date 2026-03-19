@@ -156,6 +156,12 @@ As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease 
 
 Using Programs/Other Programs/sample_diff_img_generator.py, the spatial distribution of brightness changes in the sample over time was analyzed. The resulting color-mapped images are shown in Figures 8 and 9. Blue regions indicate areas that became darker (decreased in pixel intensities) relative to the initial (reference) image, while red regions indicate areas that became brighter (increased in pixel intensities). The results show that the surface of the sample became significantly darker over time, particularly near the edges and in the central region. Brighter regions were still observed in and around the sample, but their intensity and spatial extent were less prominent throughout the experiment.
 
+### Experiment with the plant-based meat sample with the translucent plastic cover
+
+To mitigate physical and optical changes (hardening and browning of the surface) in the plant-based meat, a thin translucent plastic sheet was introduced. The sheet was cut from a standard file holder and placed directly on the sample surface without gaps, ensuring full contact. It was secured using screws while applying minimal pressure to avoid deformation or bending of the sample.
+
+The experiment with the translucent plastic sheet in place was conducted under dry weather conditions (December in Niigata, Japan), using the same environmental conditions described previously and a sample with an initial mass of 30.29 g and otherwise nearly identical parameters. The initial water content of the sample was estimated to be between 16.52 and 16.99 g. After 380 minutes, the sample mass decreased to 29.47 g, corresponding to a total mass loss of approximately 0.82 g and an average mass loss rate of approximately 0.0022 g/min. The edge detection parameters used in this experiment are summarized in Table 2.
+
 <p align="center">
   <em>Table 2. Settings applied to the processed experimental images of a plant-based sample(with the plastic cover).</em>
 </p>
