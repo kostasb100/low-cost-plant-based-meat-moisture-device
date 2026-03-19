@@ -124,7 +124,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 6. APV of the total area of the RAW image(left) and the area outside the sample(right)(no plastic cover).</em>
+  <em>Figure 6. APV of the area inside(left) and outside the sample(right)(no plastic cover).</em>
 </p>
 
 <p align="center">
@@ -185,7 +185,7 @@ The experiment with the translucent plastic sheet in place was conducted under d
 </p>
 
 <p align="center">
-  <em>Figure 10. APV of the total area of the RAW image(left) and the area outside the sample(right)(with the plastic cover).</em>
+  <em>Figure 10. APV of the area inside (left) and outside sample(right)(with the plastic cover).</em>
 </p>
 
 <p align="center">
@@ -195,6 +195,12 @@ The experiment with the translucent plastic sheet in place was conducted under d
 <p align="center">
   <em>Figure 11. APV of the area inside of the sample(with the plastic cover).</em>
 </p>
+
+Figure 10 (left) shows that, with the inclusion of the translucent plastic sheet, the APV of the area inside the sample decreased sharply from 82.17 to 80.71 during the first two hours, at a rate of 0.01062 (a.u.)/min. After this initial decrease, the APV gradually increased, reaching 80.97 by the end of the experiment at a rate of 0.00112 (a.u.)/min, corresponding to a net increase of 0.32%. A similar trend was observed for the area outside the sample, where the APV decreased to a minimum value of 8.41 within the first 100 minutes (at a rate of 0.00101 (a.u.)/min) and then increased to 8.52 by the end of the experiment (at a rate of 0.00094 (a.u.)/min), corresponding to a total change of 1.29% (Figure 10, right). In contrast, the APV of the total image area, excluding shrinkage, continued to decrease throughout the experiment, despite minor temporary increases occurring at the same time points as in the other regions (Figure 11). Overall, the total APV decreased from 37.88 to 36.95, representing a reduction of 2.46% at a rate of 0.00244 (a.u.)/min.
+
+
+
+
 
 <p align="center">
   <img src="Images/results2c.PNG" width="40%">
