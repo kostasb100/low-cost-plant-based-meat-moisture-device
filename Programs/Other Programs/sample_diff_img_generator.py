@@ -20,9 +20,9 @@ import os
 import cv2
 import numpy as np
 
-root_dir = r"C:\Users\kbalc\Desktop\uni\bachelor_project\measurements\1.5-1.9\1-7"
-output_dir_red = r"C:\Users\kbalc\Desktop\uni\bachelor_project\measurements\3-19\red"
-output_dir_blue = r"C:\Users\kbalc\Desktop\uni\bachelor_project\measurements\3-19\blue"
+root_dir = r"C:\path\to\images"          # Directory where input images are stored
+output_dir_red = r"C:\path\to\red"      # Output path for brightened (red) area images
+output_dir_blue = r"C:\path\to\blue"    # Output path for darkened (blue) area images
 
 clean_images = {}
 
