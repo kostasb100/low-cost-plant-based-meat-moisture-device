@@ -220,7 +220,7 @@ Figures 12 and 13 show that, when the plastic cover was used, the edges of the p
 
 The results above indicate that, with the plastic cover sheet attached, an increase in APV was observed, which is believed to be consistent with the previously described theory and suggests the potential use of the developed device for real-time moisture analysis. However, it is important to note that this increase in APV of the area inside of the plant-based meat sample was small (less than 0.5% from the point at which the increase began) and not linear. This indicates that further improvements and experiments (listed below) are required before the device can be used in any practical applications.
 
-### Attempt to measure the mass of the plant-based during the experiments
+### Attempts to measure the mass of the plant-based during the experiments
 
 Attemps were made to measure the mass of the sample using the HX711 A/C converter based weight scale. However, they proved to bring conflicting results. Figure 14 shows the correlation between the APV change curve of Figure 6(left) and the measurements of the mass.
 
@@ -273,7 +273,7 @@ in Science and Technology. Molecules, 24(15), 2742. https://doi.org/10.3390/mole
 Water States in Biological Systems. Sub-cellular biochemistry, 71, 189{211, https://doi.org/10.1007/978-3-319-19060-0_8, (2015).
 
 [3] J. Howell, B. Flores, J. Naranjo, A. Mendez, C.C. Vera, C. Koumriqian, J. Jordan, P.
-Neethling, C. Groenewald, M. Lovemore, P. Kinsey, T. Kruger. Raspberry Pi multispectral
+Neethling, C. Groenewald, M. Lovemore, P. Kinsey, T. Krüger. Raspberry Pi multispectral
 imaging camera system (PiMICS): a low-cost, skills-based physics educational tool.
 10.48550/arXiv.2412.04679, (2024).
 
