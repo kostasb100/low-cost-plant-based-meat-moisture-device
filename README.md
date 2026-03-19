@@ -27,7 +27,7 @@ Interest in alternative proteins such as plant-based meats has grown in recent y
 
 Moisture content is a key parameter affecting the texture, taste, and overall quality of plant-based meat products and is typically measured using costly equipment such as spectrometers. This project investigates the feasibility of a low-cost, Raspberry Pi-based imaging device for non-destructive, real-time moisture measurement during product development. It also explores the use of the same device to track changes in moisture content, size, and color over time, providing insight into the sample’s optical and physical properties.
 
-## Basic theory behind the research
+## Basic theory behind the project
 
 Water molecules are known to absorb electromagnetic radiation (light) over a wide range of the electromagnetic spectrum [1]. The relationship between wavelength and the corresponding absorption coeffcient is shown in Figure 1.
 
@@ -87,6 +87,22 @@ The Raspberry Pi Camera Module~3 NoIR (CA) was positioned directly above the sam
 The sample was placed on a scale constructed using a 500 g capacity load cell (Sensorcon, Micro Type Load Cell SC616C) , a 3D-printed black plate and an HX711 chip-based AD converter module (Akitsuki Denshi, AE-HX711-SIP) for signal acquisition. The module and its associated circuitry were housed inside an enclosure attached to the main sample chamber. It is important to note that the scale is only used for the initial experiments and the calibration of the device and is not supposed to be used when the device is fully developed.
 
 An additional platform as shown in Mechanical Diagrams/2D diagrams/SCALE/S6.PNG was later introduced on top of the scale to allow the sample to dry from its bottom surface rather than from its upper surface. This platform was designed in such a way that a piece of translucent plastic cut from a file holder could be placed over the plant-based meat sample and fixed in place.
+
+### Table: Image Processing Settings
+
+| Setting                  | Value   |
+|--------------------------|---------|
+| Gaussian kernel          | (3, 3)  |
+| Sigma x                  | 0       |
+| Thresholding value (min) | 44      |
+| Thresholding value (max) | 255     |
+| Edge kernel              | (3, 3)  |
+| Minimum area             | 147762  |
+| Maximum area             | 9000000 |
+
+*Settings applied to processed experimental images of a plant-based sample without a translucent plastic cover.*
+
+
 
 
 
