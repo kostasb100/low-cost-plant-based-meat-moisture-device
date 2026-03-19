@@ -156,9 +156,11 @@ As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease 
 
 Using Programs/Other Programs/sample_diff_img_generator.py, the spatial distribution of brightness changes in the sample over time was analyzed. The resulting color-mapped images are shown in Figures 8 and 9. Blue regions indicate areas that became darker (decreased in pixel intensities) relative to the initial (reference) image, while red regions indicate areas that became brighter (increased in pixel intensities). The results show that the surface of the sample became significantly darker over time, particularly near the edges and in the central region. Brighter regions were still observed in and around the sample, but their intensity and spatial extent were less prominent throughout the experiment.
 
+Many additional experiments were conducted with the upper surface of the plant-based meat sample uncovered, and all showed similar trends. It is proposed that these results may be due to browning and hardening of the sample surface, as well as stray visible light that the Raspberry Pi Camera Module 3 NoIR can still detect since it is not a specialized NIR camera.
+
 ### Experiment with the plant-based meat sample with the translucent plastic cover
 
-To mitigate physical and optical changes (hardening and browning of the surface) in the plant-based meat, a thin translucent plastic sheet was introduced. The sheet was cut from a standard file holder and placed directly on the sample surface without gaps, ensuring full contact. It was secured using screws while applying minimal pressure to avoid deformation or bending of the sample.
+To mitigate physical and optical changes in the plant-based meat, a thin translucent plastic sheet was introduced. The sheet was cut from a standard file holder and placed directly on the sample surface without gaps, ensuring full contact. It was secured using screws while applying minimal pressure to avoid deformation or bending of the sample.
 
 The experiment with the translucent plastic sheet in place was conducted under dry weather conditions (December in Niigata, Japan), using the same environmental conditions described previously and a sample with an initial mass of 30.29 g and otherwise nearly identical parameters. The initial water content of the sample was estimated to be between 16.52 and 16.99 g. After 380 minutes, the sample mass decreased to 29.47 g, corresponding to a total mass loss of approximately 0.82 g and an average mass loss rate of approximately 0.0022 g/min. The edge detection parameters used in this experiment are summarized in Table 2.
 
@@ -198,10 +200,6 @@ The experiment with the translucent plastic sheet in place was conducted under d
 
 Figure 10 (left) shows that, with the inclusion of the translucent plastic sheet, the APV of the area inside the sample decreased sharply from 82.17 to 80.71 during the first two hours, at a rate of 0.01062 (a.u.)/min. After this initial decrease, the APV gradually increased, reaching 80.97 by the end of the experiment at a rate of 0.00112 (a.u.)/min, corresponding to a net increase of 0.32%. A similar trend was observed for the area outside the sample, where the APV decreased to a minimum value of 8.41 within the first 100 minutes (at a rate of 0.00101 (a.u.)/min) and then increased to 8.52 by the end of the experiment (at a rate of 0.00094 (a.u.)/min), corresponding to a total change of 1.29% (Figure 10, right). In contrast, the APV of the total image area, excluding shrinkage, continued to decrease throughout the experiment, despite minor temporary increases occurring at the same time points as in the other regions (Figure 11). Overall, the total APV decreased from 37.88 to 36.95, representing a reduction of 2.46% at a rate of 0.00244 (a.u.)/min.
 
-
-
-
-
 <p align="center">
   <img src="Images/results2c.PNG" width="40%">
 </p>
@@ -218,7 +216,21 @@ Figure 10 (left) shows that, with the inclusion of the translucent plastic sheet
   <em>Figure 13. Brigthened areas of the plant-based sample at different times(with the plastic cover).</em>
 </p>
 
+Figures 12 and 13 show that, when the plastic cover was used, the edges of the plant based sample still exhibited noticeable darkening. However, the central region of the sample, where the plastic cover is assumed to be in direct contact with the surface, did not darken as strongly as in the case without the plastic cover. In addition, the area outside the sample showed a greater tendency toward brightening rather than darkening.
 
+The results above indicate that, with the plastic cover sheet attached, an increase in APV was observed, which is believed to be consistent with the previously described theory and suggests the potential use of the developed device for real-time moisture analysis. However, it is important to note that this increase in APV of the area inside of the plant-based meat sample was small (less than 0.5% from the point at which the increase began) and not linear. This indicates that further improvements and experiments (listed below) are required before the device can be used in any practical applications.
+
+### Attempt to measure the mass of the plant-based during the experiments
+
+Attemps were made to measure the mass of the sample using the HX711 A/C converter based weight scale. However, they proved to bring conflicting results. Figure 14 shows the correlation between the APV change curve of Figure 6(left) and the measurements of the mass.
+
+<p align="center">
+  <img src="Images/results3.PNG" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 14. Temporal evolution of the measured sample mass and the corresponding APV during the experiment with the translucent plastic sheet, illustrating inconsistencies in the mass measurements..</em>
+</p>
 
 ## Future Work
 These are the areas in which the device could potentially be improved:
