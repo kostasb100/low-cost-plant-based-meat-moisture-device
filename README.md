@@ -88,7 +88,22 @@ The sample was placed on a scale constructed using a 500 g capacity load cell (S
 
 An additional platform as shown in Mechanical Diagrams/2D diagrams/SCALE/S6.PNG was later introduced on top of the scale to allow the sample to dry from its bottom surface rather than from its upper surface. This platform was designed in such a way that a piece of translucent plastic cut from a file holder could be placed over the plant-based meat sample and fixed in place.
 
-### Table: Image Processing Settings
+Many experiments were conducted using the developed moisture measurement device and plant-based meat samples. Two of these experiments are presented here.
+
+### Experiment with the plant-based meat sample without the translucent plastic cover
+
+This experiment was conducted using a plant-based meat sample with its surface uncovered in a dark room under controlled ambient conditions. The temperature was maintained at 24~$^\circ$C, and the experiment was carried out during dry weather conditions in Niigata, Japan, in January. To minimize the influence of stray light, the device shown in Figure 5 was covered with an additional cardboard enclosure. For the same reason, the monitor used to control the Raspberry Pi microcontroller was oriented away from the device. The mass of the sample was measured using the integrated scale both before and after the experiment, while maintaining identical measurement settings.
+
+The experiment was conducted for 380~minutes and consisted of 20 experiment cycles acquired at 20-minute intervals. Noise, LED-illuminated, and halogen lamp-illuminated images of the sample were captured in both DNG and JPEG formats, and the corresponding image metadata were stored. The exposure time was set to 150\,000~$\mu$s, the analogue gain to 1.0, the colour gains to (1.0,~1.0), and the lens position to 10.0. Both AfState and AeState were set to False.
+
+The initial mass of the sample was 34.01~g. Based on the Moisture Content Calculator desccribed in Moisture Content Calculator, the initial water content of the sample was estimated to be between 18.55 and 19.08~g. The mass of the sample decreased to 32.80~g by the end of the experiment, corresponding to a mass loss of approximately 1.20~g (with an estimated mass loss rate of 0.0032~g/min). Changes in the APV over time were evaluated for the region inside the sample, the region outside the sample, and the total image area excluding the shrinkage region. Edge detection was performed using the parameter settings listed in Table 1 with the program described in Programs/Other Programs/apv_calculator.py. These settings were kept constant for all images across all experimental cycles.
+
+
+<p align="center">
+  <em>Table 1. Settings applied to the processed experimental images of a plant-based sample without the plastic cover.</em>
+</p>
+
+<div align="center">
 
 | Setting                  | Value   |
 |--------------------------|---------|
@@ -100,7 +115,93 @@ An additional platform as shown in Mechanical Diagrams/2D diagrams/SCALE/S6.PNG 
 | Minimum area             | 147762  |
 | Maximum area             | 9000000 |
 
-*Settings applied to processed experimental images of a plant-based sample without a translucent plastic cover.*
+</div>
+
+<p align="center">
+  <img src="Images/results1a.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 6. APV of the total area of the RAW image(left) and the area outside the sample(right)(no plastic cover).</em>
+</p>
+
+<p align="center">
+  <img src="Images/results1b.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 7. APV of the area inside the sample.</em>
+</p>
+
+<p align="center">
+  <img src="Images/results1c.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 8. Darkened areas of the plant-based sample at different times(no translucent plastic cover).</em>
+</p>
+
+<p align="center">
+  <img src="Images/results1d.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 9. Brigthened areas of the plant-based sample at different times(no translucent plastic cover).</em>
+</p>
+
+
+
+<p align="center">
+  <em>Table 2. Settings applied to the processed experimental images of a plant-based sample with the plastic cover.</em>
+</p>
+
+<div align="center">
+
+| Setting                  | Value   |
+|--------------------------|---------|
+| Gaussian kernel          | (3, 3)  |
+| Sigma x                  | 0       |
+| Thresholding value (min) | 45      |
+| Thresholding value (max) | 255     |
+| Edge kernel              | (3, 3)  |
+| Minimum area             | 147762  |
+| Maximum area             | 9000000 |
+
+</div>
+
+<p align="center">
+  <img src="Images/results2a.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 10. APV of the total area of the RAW image(left) and the area outside the sample(right)(with plastic cover).</em>
+</p>
+
+<p align="center">
+  <img src="Images/results2b.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 11. APV of the area inside of the sample(with plastic cover).</em>
+</p>
+
+<p align="center">
+  <img src="Images/results2c.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 12. Darkened areas of the plant-based sample at different times(with plastic cover).</em>
+</p>
+
+<p align="center">
+  <img src="Images/results2d.jpg" width="40%">
+</p>
+
+<p align="center">
+  <em>Figure 13. Brigthened areas of the plant-based sample at different times(with plastic cover).</em>
+</p>
+
+
 
 
 
