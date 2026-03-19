@@ -135,18 +135,12 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
   <em>Figure 7. APV of the area inside the sample(no plastic cover).</em>
 </p>
 
+As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease in APV across all analyzed image regions, contrary to the previously stated hypothesis. The initial APV of the area inside the sample was 93.38 and decreased by approximately 5.54% to 88.21, at a rate of 0.01361 (a.u.)/min (Figure 6, left). Figure 6 (right) shows that the APV of the area outside the sample decreased from 5.28 to 4.90, corresponding to a reduction of 7.31% at a rate of 0.001 (a.u.)/min, although transient increases in APV were observed at t = 200 min, t = 240 min, and t = 320 min. The APV of the total area, with the shrinkage region excluded, decreased from 41.62 to 38.20, representing a reduction of 8.22%, with an approximate rate of 0.009 (a.u.)/min.
+
+
 <p align="center">
   <img src="Images/results1c.PNG" width="40%">
 </p>
-
-As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease in the APV across all analyzed image regions, contrary to the hypothesis stated previously. The initial APV of IA was 93.38 and decreased by approximately 5.54~\% to 88.21 at a rate of 0.01361~(a.u.)/min (Figure~\ref{fig:01_07_inside}). Figure~\ref{fig:01_07_outside} shows that the APV of OA decreased from 5.28 to 4.90, corresponding to a reduction of 7.31~\% at a rate of 0.001~(a.u.)/min, although transient increases in APV were observed at \( t = 200~\mathrm{min} \), \( t = 240~\mathrm{min} \), and \( t = 320~\mathrm{min} \). The APV of TA decreased from 41.62 to 38.20, representing a reduction of 8.22~\%, with an approximate decrease rate of 0.009~(a.u.)/min.
-
-
-
-
-
-
-
 
 <p align="center">
   <em>Figure 8. Darkened areas of the plant-based sample at different times(no plastic cover).</em>
@@ -160,7 +154,7 @@ As shown in Figures 6 and 7, the decrease in sample mass resulted in a decrease 
   <em>Figure 9. Brigthened areas of the plant-based sample at different times(no plastic cover).</em>
 </p>
 
-
+Using Programs/Other Programs/sample_diff_img_generator.py, the spatial distribution of brightness changes in the sample over time was analyzed. The resulting color-mapped images are shown in Figures 8 and 9. Blue regions indicate areas that became darker (decreased in pixel intensities) relative to the initial (reference) image, while red regions indicate areas that became brighter (increased in pixel intensities). The results show that the surface of the sample became significantly darker over time, particularly near the edges and in the central region. Brighter regions were still observed in and around the sample, but their intensity and spatial extent were less prominent throughout the experiment.
 
 <p align="center">
   <em>Table 2. Settings applied to the processed experimental images of a plant-based sample(with the plastic cover).</em>
