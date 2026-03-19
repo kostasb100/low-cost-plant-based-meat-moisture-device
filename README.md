@@ -232,6 +232,8 @@ Attemps were made to measure the mass of the sample using the HX711 A/C converte
   <em>Figure 14. Temporal evolution of the measured sample mass and the corresponding APV during the experiment with the translucent plastic sheet, illustrating inconsistencies in the mass measurements..</em>
 </p>
 
+Reasons for these results and potential improvements are described below.
+
 ## Future Work
 These are the areas in which the device could potentially be improved:
 
