@@ -130,7 +130,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 7. APV of the area inside the sample.</em>
+  <em>Figure 7. APV of the area inside the sample(no plastic cover).</em>
 </p>
 
 <p align="center">
@@ -138,7 +138,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 8. Darkened areas of the plant-based sample at different times(no translucent plastic cover).</em>
+  <em>Figure 8. Darkened areas of the plant-based sample at different times(no plastic cover).</em>
 </p>
 
 <p align="center">
@@ -146,13 +146,13 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 9. Brigthened areas of the plant-based sample at different times(no translucent plastic cover).</em>
+  <em>Figure 9. Brigthened areas of the plant-based sample at different times(no plastic cover).</em>
 </p>
 
 
 
 <p align="center">
-  <em>Table 2. Settings applied to the processed experimental images of a plant-based sample with the plastic cover.</em>
+  <em>Table 2. Settings applied to the processed experimental images of a plant-based sample(with the plastic cover).</em>
 </p>
 
 <div align="center">
@@ -174,7 +174,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 10. APV of the total area of the RAW image(left) and the area outside the sample(right)(with plastic cover).</em>
+  <em>Figure 10. APV of the total area of the RAW image(left) and the area outside the sample(right)(with the plastic cover).</em>
 </p>
 
 <p align="center">
@@ -182,7 +182,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 11. APV of the area inside of the sample(with plastic cover).</em>
+  <em>Figure 11. APV of the area inside of the sample(with the plastic cover).</em>
 </p>
 
 <p align="center">
@@ -190,7 +190,7 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 12. Darkened areas of the plant-based sample at different times(with plastic cover).</em>
+  <em>Figure 12. Darkened areas of the plant-based sample at different times(with the plastic cover).</em>
 </p>
 
 <p align="center">
@@ -198,12 +198,8 @@ The initial mass of the sample was 34.01 g. Based on the Moisture Content Calcul
 </p>
 
 <p align="center">
-  <em>Figure 13. Brigthened areas of the plant-based sample at different times(with plastic cover).</em>
+  <em>Figure 13. Brigthened areas of the plant-based sample at different times(with the plastic cover).</em>
 </p>
-
-
-
-
 
 
 
